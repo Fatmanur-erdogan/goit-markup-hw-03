@@ -1,0 +1,189 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  /* text-underline-position:from-font; */
+  text-decoration: none;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+.logo .span {
+  color: #2e2f42;
+}
+
+.header-ul-top-line .list .etiket {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  /* text-underline-position: from-font; */
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.header-ul-top-line .list .etiket:hover,
+.header-ul-top-line .list .etiket:focus {
+  color: #404bbf;
+}
+
+.address-top-line .address-link .list .adress-etiket {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  /* text-underline-position: from-font; */
+  text-decoration: none;
+  color: #434455;
+}
+.address-top-line {
+  font-style: normal;
+}
+
+.address-top-line .address-link .list .adress-etiket:hover,
+.address-top-line .address-link .list .adress-etiket:focus {
+  color: #404bbf;
+}
+
+.section-hero-image {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+}
+
+.section-one-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  /* text-underline-position: from-font; */
+  text-decoration: none;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  /* text-underline-position: from-font; */
+  text-decoration: none;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+.section-one-features .section-title {
+  display: none;
+}
+
+.section-one-features .section-ul .list .subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-one-features .section-ul .list .text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-two-team-cards {
+  background-color: #f4f4fd;
+}
+
+.section-two-title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  line-height: 1.11;
+}
+
+.section-three-header .section-ul .list .subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-three-header .section-ul .list .text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-three-header .section-header {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.team-section-li-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-section-li-p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-two-team-cards .section-ul .list {
+  background-color: #ffffff;
+}
+
+.section-three-header .section-header {
+  font-weight: 500;
+
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer .logo .span {
+  color: #2e2f42;
+}
+
+.footer .text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
