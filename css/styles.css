@@ -3,6 +3,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.img {
+  display: block;
+}
 
 ul {
   list-style-type: none;
@@ -36,10 +39,16 @@ ul {
   display: flex;
 }
 
-.header-about .div-container {
+.container {
   display: flex;
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  align-items: center;
+  display: flex;
 }
 
 .header-ul-top-line .list .etiket {
@@ -54,7 +63,7 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-about .home-navbar-top-line {
+.header-about {
   display: flex;
   align-items: center;
 }
@@ -77,6 +86,21 @@ ul {
 }
 .address-top-line {
   font-style: normal;
+}
+
+.header-nav {
+  align-items: center;
+  display: flex;
+}
+
+.home-navbar-top-line {
+  display: flex;
+  gap: 40px;
+}
+
+.address-link {
+  display: flex;
+  gap: 40px;
 }
 
 .address-top-line .address-link .list .adress-etiket:hover,
@@ -120,10 +144,6 @@ ul {
 
 .section-one-features .section-title {
   display: none;
-}
-
-.section-two-team-cards-container .section-ul .list {
-  display: block;
 }
 
 .section-one-features .section-ul .list .subtitle {
@@ -199,9 +219,6 @@ ul {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
-}
-.section-three-header-container .section-ul-list {
-  display: block;
 }
 
 .footer {
