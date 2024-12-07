@@ -309,6 +309,7 @@ ul {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+  padding: 0;
 }
 
 .section-three-header .container .section-ul .list {
