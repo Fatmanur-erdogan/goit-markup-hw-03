@@ -19,11 +19,27 @@ ul {
   text-decoration: none;
   color: #4d5ae5;
   text-transform: uppercase;
-  margin: right 76px;
+}
+
+.header-about .container .home-navbar-top-line .logo {
+  margin-right: 76px;
 }
 
 .logo .span {
   color: #2e2f42;
+}
+
+.header-about {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  display: flex;
+}
+
+.header-about .div .container {
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .header-ul-top-line .list .etiket {
@@ -37,13 +53,8 @@ ul {
   color: #2e2f42;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container-div-container {
-  display: flex;
-  width: 1158px;
-  padding: 0 15px;
-}
 
-.home-navbar-top-line {
+.header-about .home-navbar-top-line {
   display: flex;
   align-items: center;
 }
@@ -111,7 +122,7 @@ ul {
   display: none;
 }
 
-.section-two-team-cards-container .section-ul {
+.section-two-team-cards .container .section-ul .list {
   display: block;
 }
 
@@ -182,7 +193,6 @@ ul {
 
 .section-three-header .section-header {
   font-weight: 500;
-
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -190,7 +200,7 @@ ul {
   font-size: 36px;
   line-height: 1.11;
 }
-.section-three-header-container .section-ul {
+.section-three-header .container .section-ul-list {
   display: block;
 }
 
