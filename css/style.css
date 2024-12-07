@@ -301,11 +301,9 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.section-three-header .section-header {
+.section-three-header .section-header .section-ul {
   font-size: 36px;
   line-height: 1.11;
-}
-.section-three-header .container .section-header .section-ul {
   flex-wrap: wrap;
   row-gap: 48px;
 }
