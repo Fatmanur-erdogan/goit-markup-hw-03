@@ -183,6 +183,11 @@ ul {
   display: none;
 }
 
+.visually-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
 .section-ul {
   display: flex;
   gap: 24px;
