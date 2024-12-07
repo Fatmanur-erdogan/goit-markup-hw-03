@@ -25,6 +25,10 @@ ul {
   color: #2e2f42;
 }
 
+.header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-ul-top-line .list .etiket {
   font-size: 16px;
   font-weight: 500;
@@ -127,6 +131,10 @@ ul {
   color: #2e2f42;
   text-transform: capitalize;
   line-height: 1.11;
+}
+
+.section-two-team-cards-container {
+  display: block;
 }
 
 .section-three-header .section-ul .list .subtitle {
