@@ -305,7 +305,7 @@ ul {
   font-size: 36px;
   line-height: 1.11;
 }
-.section-three-header .section-header .section-ul {
+.section-three-header .container .section-header .section-ul {
   flex-wrap: wrap;
   row-gap: 48px;
 }
