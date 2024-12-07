@@ -137,18 +137,8 @@ ul {
   background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
+  padding: 188px 0;
 }
-
-.section-one-title {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  /* text-underline-position: from-font; */
-  text-decoration: none;
-}
-
 .button {
   font-size: 16px;
   font-weight: 500;
@@ -174,8 +164,28 @@ ul {
   color: #ffffff;
 }
 
+.section-one-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  /* text-underline-position: from-font; */
+  text-decoration: none;
+  max-width: 496px;
+}
+
+.section-one-features {
+  padding: 120px 0;
+}
+
 .section-one-features .section-title {
   display: none;
+}
+
+.section-ul {
+  display: flex;
+  gap: 24px;
 }
 
 .section-one-features .section-ul .list .subtitle {
