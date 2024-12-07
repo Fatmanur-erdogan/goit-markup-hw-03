@@ -19,14 +19,11 @@ ul {
   text-decoration: none;
   color: #4d5ae5;
   text-transform: uppercase;
+  margin: right 76px;
 }
 
 .logo .span {
   color: #2e2f42;
-}
-
-.header-container {
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-ul-top-line .list .etiket {
@@ -38,6 +35,17 @@ ul {
   /* text-underline-position: from-font; */
   text-decoration: none;
   color: #2e2f42;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container-div-container {
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
+}
+
+.home-navbar-top-line {
+  display: flex;
+  align-items: center;
 }
 
 .header-ul-top-line .list .etiket:hover,
@@ -103,6 +111,10 @@ ul {
   display: none;
 }
 
+.section-two-team-cards-container .section-ul {
+  display: block;
+}
+
 .section-one-features .section-ul .list .subtitle {
   font-size: 20px;
   font-weight: 500;
@@ -131,10 +143,6 @@ ul {
   color: #2e2f42;
   text-transform: capitalize;
   line-height: 1.11;
-}
-
-.section-two-team-cards-container {
-  display: block;
 }
 
 .section-three-header .section-ul .list .subtitle {
@@ -181,6 +189,9 @@ ul {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
+}
+.section-three-header-container .section-ul {
+  display: block;
 }
 
 .footer {
