@@ -98,6 +98,11 @@ ul {
   gap: 40px;
 }
 
+.header-ul-top-line {
+  display: flex;
+  gap: 40px;
+}
+
 .header-ul-top-line .list .etiket:hover,
 .header-ul-top-line .list .etiket:focus {
   color: #404bbf;
