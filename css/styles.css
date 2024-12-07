@@ -21,7 +21,7 @@ ul {
   text-transform: uppercase;
 }
 
-.header-about .container .home-navbar-top-line .logo {
+.header-about-container .home-navbar-top-line .logo {
   margin-right: 76px;
 }
 
@@ -36,7 +36,7 @@ ul {
   display: flex;
 }
 
-.header-about .div .container {
+.header-about .div-container {
   display: flex;
   width: 1158px;
   padding: 0 15px;
@@ -122,7 +122,7 @@ ul {
   display: none;
 }
 
-.section-two-team-cards .container .section-ul .list {
+.section-two-team-cards-container .section-ul .list {
   display: block;
 }
 
@@ -200,7 +200,7 @@ ul {
   font-size: 36px;
   line-height: 1.11;
 }
-.section-three-header .container .section-ul-list {
+.section-three-header-container .section-ul-list {
   display: block;
 }
 
